@@ -374,7 +374,7 @@ function onEachFeature (feature, layer) {
     };
 
 
-    $.getJSON("data/historic-highlands-lots-with-data_11-24-2024_sort-by-date-v2.geojson", function (json){
+    $.getJSON("data/test.geojson", function (json){
 // add GeoJSON layer to the map once the file is loaded
    polygons = L.geoJson(json ,{
 	    style: style,
